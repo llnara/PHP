@@ -23,7 +23,7 @@ $segmenter->insert('中国人');
 
 //echo "split words:" . implode(array_keys($segmenter->split('我在中国北京王府井打着北京王者荣耀,气温很高')));
 
-$a = $segmenter->mapArray('过去');
+$a = $segmenter->mapArray('中');
 
 var_dump($a);
 
